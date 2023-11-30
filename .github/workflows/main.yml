@@ -1,4 +1,4 @@
-name: Update decker application managementTask
+name: Update docker app managementTask
 
 on:
   push:
