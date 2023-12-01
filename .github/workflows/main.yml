@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: ./sources
-          file: ./Dockerfile
+          file: ./sources/Dockerfile
           push: true
           tags: ghadafarjeoui/docker:1.0.${{github.run_number}}
