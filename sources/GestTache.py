@@ -27,7 +27,7 @@ class GestionnaireTaches:
             tache = self.taches.pop(index - 1)
             print(f"Tâche '{tache}' supprimée.")
         else:
-            print("tâche invalide.")
+            print("Index de tâche invalide.")
 
 
 # Utilisation du gestionnaire de tâches
