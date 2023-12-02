@@ -1,5 +1,5 @@
-import unittest
 
+import unittest
 from GestTache import GestionnaireTaches
 
 class TestGestionnaireTaches(unittest.TestCase):
@@ -17,13 +17,10 @@ class TestGestionnaireTaches(unittest.TestCase):
 
     def test_marquer_complet(self):
         self.gestionnaire.ajouter_tache("Test tâche")
-        self.gestionnaire.marquer_complet(1)
-        # Vous pouvez étendre ce test en vérifiant si la tâche est effectivement marquée comme complète
+        self.gestionnaire.marquer_complet(1)  # Utilisez l'index 1 car nous avons une tâche
+        # Vous pouvez étendre ce test pour vérifier si la tâche est effectivement marquée comme complète
 
     def test_supprimer_tache(self):
         self.gestionnaire.ajouter_tache("Test tâche")
-        self.gestionnaire.supprimer_tache(1)
+        self.gestionnaire.supprimer_tache(1)  # Utilisez l'index 1 car nous avons une tâche
         self.assertNotIn("Test tâche", self.gestionnaire.taches)
-
-if __name__ == '__main__':
-    unittest.main()
