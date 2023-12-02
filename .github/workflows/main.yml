@@ -3,7 +3,7 @@ name: Update docker app managementTask
 on:
   push:
     branches:
-      - 'main'
+      - 'ghadaTest'
 
 jobs:
   docker:
