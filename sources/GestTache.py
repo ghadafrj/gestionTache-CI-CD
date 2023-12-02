@@ -41,7 +41,7 @@ while True:
     print("4. Supprimer une tâche")
     print("5. Quitter")
 
-    choix = input("Choisissez une option (1-5): ")
+    choix = input("Choisissez une option 1 à 5 ")
 
     if choix == '1':
         tache = input("Entrez la tâche à ajouter : ")
