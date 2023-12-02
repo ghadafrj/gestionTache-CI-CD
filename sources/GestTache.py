@@ -8,7 +8,7 @@ class GestionnaireTaches:
 
     def afficher_taches(self):
         if not self.taches:
-            print("Aucune tâche pour le moment.")
+            print("Aucune tâche ")
         else:
             print("Liste des tâches:")
             for index, tache in enumerate(self.taches, start=1):
