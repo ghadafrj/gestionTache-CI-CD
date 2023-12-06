@@ -8,7 +8,7 @@ class GestionnaireTaches:
 
     def afficher_taches(self):
         if not self.taches:
-            print("Aucune tâche pour le moment.")
+            print("Aucune tâche ")
         else:
             print("Liste des tâches:")
             for index, tache in enumerate(self.taches, start=1):
@@ -27,7 +27,7 @@ class GestionnaireTaches:
             tache = self.taches.pop(index - 1)
             print(f"Tâche '{tache}' supprimée.")
         else:
-            print("Index de tâche invalide.")
+            print("Index de tâche invalide !.")
 
 
 # Utilisation du gestionnaire de tâches
