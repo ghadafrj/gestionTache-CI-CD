@@ -58,4 +58,4 @@ while True:
         print("Programme terminé.")
         break
     else:
-        print("Option invalide. Veuillez réessayer.")
+        print("Index Option invalide. Veuillez réessayer.")
